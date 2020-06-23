@@ -143,15 +143,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51847625884d55545af35014e07dc5f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  y0: 2
-  Mass: 2
-  Damping: 0.02
-  Stiffness: 2000
-  Frequency: 800
-  Phase: 0
+  y0: 1.5
+  Mass: 1
+  Damping: 0.012
+  Stiffness: 32000
+  Frequency: 1880
+  Phase: 1763.9991
   playOnCollision: 1
   adjustParamsOnCollision: 1
-  velocieties: []
+  avarage: 13.737875
+  allValues:
+  - 13.737875
 --- !u!114 &3872771203651056713
 MonoBehaviour:
   m_ObjectHideFlags: 0

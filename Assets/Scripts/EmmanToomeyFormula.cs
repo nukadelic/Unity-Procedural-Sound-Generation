@@ -14,6 +14,7 @@
      * y(t)=y_0e^{(-rt/2m)}cos(t\sqrt{k/m-(r/2m)^2})
      */
 
+    [DisallowMultipleComponent]
     [RequireComponent( typeof( AudioSource ) )]
     public class EmmanToomeyFormula : MonoBehaviour
     {
@@ -23,6 +24,8 @@
         // e = 2.71828182845904523536028747135266249775724709369995
         public static readonly float E = 2.718281828459045f;
 
+        [Range(0,1)]
+        public float Volume = 0.4f;
         [Tooltip("'y0' in Meters")]
         public float y0 = 1f;
         [Tooltip("'m' in Grams")]
@@ -35,6 +38,8 @@
         public float Frequency = 440;
         [ReadOnly, Tooltip("'t' in Seconds (current wave phase)")]
         public float Phase = 0;
+
+        float VolumeMultiplier = 1f;
 
         public float Evaluate( float time )
         {
@@ -78,15 +83,20 @@
             {
                 Phase += increment;
 
-                value = Evaluate( Phase );
+                value = Evaluate( Phase ) * Volume * VolumeMultiplier;
 
-                data[ i ] += value;
+                if( Mathf.Abs( value ) > MaxVal ) MaxVal = Mathf.Abs( value );
+
+                data[ i ] = value;
 
                 if(channels > 1) data[ i + 1 ] = data[ i ];
             }
 
             if( Mathf.Abs( value ) < 1e-4f ) isPlaying = false;
         }
+
+        [ReadOnly]
+        public float MaxVal = 0;
 
         [Tooltip("Requires collider to be attached")]
         public bool playOnCollision = true;
@@ -150,21 +160,26 @@
             // The relative linear velocity of the two colliding objects
             Vector3 cV = collision.relativeVelocity;
             // Total sum of the distance between the colliders at the contact point.
-            //float cST = collision.GetSeparationTotal();
+            float cST = collision.GetSeparationTotal(); 
             // Avarage point of all contacts
-            //Vector3 cP = collision.GetAvarageContactPoint();
+            Vector3 cP = collision.GetAvarageContactPoint();
             // Avarage normalized "normal" value of all contact points
-            //Vector3 cN = collision.GetAvarageContactNormal();
+            Vector3 cN = collision.GetAvarageContactNormal();
 
             // -- Normalize --
 
             var velocity_normalized = cV.magnitude / 350f; // 50 on avarage
             var volume_normalized = oV / 27f; // For a a unit calpsule the avarage value is 10 
             var surfaceArea_normalized = oSA / 27f; // For a unit capsule the avarage value is 10
+            var impulseMagnitude_normalize = cI.magnitude / 150f; // strong impule magnitude is around 30 
+
+            //VolumeMultiplier = impulseMagnitude_normalize;
 
             //var contactPoint_normalized = cST;
 
-            values[ globalIndex ] = Mathf.Abs( cI.magnitude );
+            Damping = 0.012f - ( 0.01f * impulseMagnitude_normalize );
+
+            values[ globalIndex ] = Mathf.Abs( cI.magnitude ); 
 
             //Mass = bM / 60f;
 
@@ -172,7 +187,7 @@
 
             //Damping = 
 
-            Play( );
+            Play( true );
         }
 
         private void Awake( )
@@ -190,7 +205,6 @@
             allValues = values.ToArray( );
             avarage = values.Sum() / values.Count;
         }
-
 
         int globalIndex = 0;
         static int count = 0;

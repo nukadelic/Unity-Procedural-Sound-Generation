@@ -299,6 +299,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: BouncyOne (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
 --- !u!4 &335222346 stripped
@@ -428,6 +443,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BouncyOne (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
@@ -559,6 +589,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: BouncyOne (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
 --- !u!1 &629043444
@@ -679,6 +724,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BouncyOne (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
@@ -847,6 +907,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BouncyOne (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
@@ -1074,6 +1149,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: BouncyOne (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
 --- !u!4 &1034864481 stripped
@@ -1159,6 +1249,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: BouncyOne (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
 --- !u!1001 &1297934890
@@ -1237,6 +1342,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BouncyOne (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
@@ -1323,6 +1443,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: BouncyOne (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
 --- !u!4 &1401575130 stripped
@@ -1407,6 +1542,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BouncyOne (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
@@ -1509,21 +1659,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 629043445}
     m_Modifications:
-    - target: {fileID: 768358645785117981, guid: 7932179d3e45c694e9bcfa428b7110c8,
-        type: 3}
-      propertyPath: uniformXZ
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3872771203651056713, guid: 7932179d3e45c694e9bcfa428b7110c8,
-        type: 3}
-      propertyPath: SurfaceArea
-      value: 6.2831855
-      objectReference: {fileID: 0}
-    - target: {fileID: 3872771203651056713, guid: 7932179d3e45c694e9bcfa428b7110c8,
-        type: 3}
-      propertyPath: Volume
-      value: 2.617994
-      objectReference: {fileID: 0}
     - target: {fileID: 4839637270323600780, guid: 7932179d3e45c694e9bcfa428b7110c8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1583,6 +1718,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BouncyOne (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}
@@ -2214,6 +2364,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 629043445}
     m_Modifications:
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: allValues.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: y0
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: Damping
+      value: 0.012
+      objectReference: {fileID: 0}
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: Frequency
+      value: 1880
+      objectReference: {fileID: 0}
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: Phase
+      value: 1763.9991
+      objectReference: {fileID: 0}
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: avarage
+      value: 13.737875
+      objectReference: {fileID: 0}
+    - target: {fileID: 629349930578146688, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: allValues.Array.data[0]
+      value: 13.737875
+      objectReference: {fileID: 0}
     - target: {fileID: 3266030685927557076, guid: 7932179d3e45c694e9bcfa428b7110c8,
         type: 3}
       propertyPath: m_Enabled
@@ -2303,6 +2493,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BouncyOne
+      objectReference: {fileID: 0}
+    - target: {fileID: 4839637270323600783, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448090406915949303, guid: 7932179d3e45c694e9bcfa428b7110c8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7932179d3e45c694e9bcfa428b7110c8, type: 3}

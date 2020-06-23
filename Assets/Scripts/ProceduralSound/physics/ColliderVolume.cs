@@ -6,6 +6,7 @@
     using System.Collections;
     using System.Linq;
 
+    [DisallowMultipleComponent]
     [ExecuteInEditMode]
     public class ColliderVolume : MonoBehaviour
     {
